@@ -1,13 +1,13 @@
 ---
 layout: api_prebidjs
-title: pbjs.adServers.dfp.buildAdpodVideoUrl(options) <span style="color:red" markdown="1">[Alpha]</span>
-description: adServers.dfp.buildAdpodVideoUrl API
+title: pbjs.adServers.gam.buildAdpodVideoUrl(options) <span style="color:red" markdown="1">[Alpha]</span>
+description: adServers.gam.buildAdpodVideoUrl API
 sidebarType: 1
 ---
 
 
 {: .alert.alert-info :}
-The GAM implementation of this function requires including the `dfpAdServerVideo` module in your Prebid.js build.
+The GAM implementation of this function requires including the `gamAdServerVideo` module in your Prebid.js build.
 
 This method combines publisher-provided parameters with Prebid.js targeting parameters to build a GAM video ad tag URL that can be used by a video player.
 
@@ -42,7 +42,7 @@ pbjs.que.push(function(){
 
     pbjs.requestBids({
         bidsBackHandler: function(bids) {
-            pbjs.adServers.dfp. buildAdpodVideoUrl({
+            pbjs.adServers.gam. buildAdpodVideoUrl({
                 codes: ['sample-code'],
                 params: {
                     iu: '/123456/testing/prebid.org/adunit1',

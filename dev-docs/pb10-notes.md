@@ -33,7 +33,7 @@ The following modules have been removed from Prebid.js as part of the 10.0 relea
 {: .table .table-bordered .table-striped }
 
 | Module | Replacement |
-|:----------------------------- | :------------------------- |
+| :----------------------------- | :------------------------- |
 | dfpAdServerVideo | gamAdServerVideo |
 | dfpAdPod | gamAdPod |
 | telariaBidAdapter | |
